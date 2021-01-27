@@ -1,0 +1,15 @@
+.image-list {
+	display: grid;
+    grid-gap: 5px 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 10px;
+}
+
+img {
+	width: 100%;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
